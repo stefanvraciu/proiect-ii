@@ -183,53 +183,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202004292006305_test.cs" />
-    <Compile Include="Migrations\202004292006305_test.Designer.cs">
-      <DependentUpon>202004292006305_test.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202004292021053_studentId.cs" />
-    <Compile Include="Migrations\202004292021053_studentId.Designer.cs">
-      <DependentUpon>202004292021053_studentId.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202004292104280_studentUser.cs" />
-    <Compile Include="Migrations\202004292104280_studentUser.Designer.cs">
-      <DependentUpon>202004292104280_studentUser.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202004292107555_studentId1.cs" />
-    <Compile Include="Migrations\202004292107555_studentId1.Designer.cs">
-      <DependentUpon>202004292107555_studentId1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202004301729120_nameUsers.cs" />
-    <Compile Include="Migrations\202004301729120_nameUsers.Designer.cs">
-      <DependentUpon>202004301729120_nameUsers.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202004301829382_studentteacher.cs" />
-    <Compile Include="Migrations\202004301829382_studentteacher.Designer.cs">
-      <DependentUpon>202004301829382_studentteacher.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202004302043390_integrationSeba.cs" />
-    <Compile Include="Migrations\202004302043390_integrationSeba.Designer.cs">
-      <DependentUpon>202004302043390_integrationSeba.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202004302101216_nullable.cs" />
-    <Compile Include="Migrations\202004302101216_nullable.Designer.cs">
-      <DependentUpon>202004302101216_nullable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005011926450_moveYearToGroup.cs" />
-    <Compile Include="Migrations\202005011926450_moveYearToGroup.Designer.cs">
-      <DependentUpon>202005011926450_moveYearToGroup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005022206433_posts.cs" />
-    <Compile Include="Migrations\202005022206433_posts.Designer.cs">
-      <DependentUpon>202005022206433_posts.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005022244273_postsMutatPostType.cs" />
-    <Compile Include="Migrations\202005022244273_postsMutatPostType.Designer.cs">
-      <DependentUpon>202005022244273_postsMutatPostType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005031723544_phoneNo.cs" />
-    <Compile Include="Migrations\202005031723544_phoneNo.Designer.cs">
-      <DependentUpon>202005031723544_phoneNo.cs</DependentUpon>
+    <Compile Include="Migrations\202005040953263_Initial.cs" />
+    <Compile Include="Migrations\202005040953263_Initial.Designer.cs">
+      <DependentUpon>202005040953263_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -261,6 +217,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\studentApp220200504114227 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -364,41 +321,8 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202004292006305_test.resx">
-      <DependentUpon>202004292006305_test.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202004292021053_studentId.resx">
-      <DependentUpon>202004292021053_studentId.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202004292104280_studentUser.resx">
-      <DependentUpon>202004292104280_studentUser.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202004292107555_studentId1.resx">
-      <DependentUpon>202004292107555_studentId1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202004301729120_nameUsers.resx">
-      <DependentUpon>202004301729120_nameUsers.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202004301829382_studentteacher.resx">
-      <DependentUpon>202004301829382_studentteacher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202004302043390_integrationSeba.resx">
-      <DependentUpon>202004302043390_integrationSeba.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202004302101216_nullable.resx">
-      <DependentUpon>202004302101216_nullable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005011926450_moveYearToGroup.resx">
-      <DependentUpon>202005011926450_moveYearToGroup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005022206433_posts.resx">
-      <DependentUpon>202005022206433_posts.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005022244273_postsMutatPostType.resx">
-      <DependentUpon>202005022244273_postsMutatPostType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005031723544_phoneNo.resx">
-      <DependentUpon>202005031723544_phoneNo.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202005040953263_Initial.resx">
+      <DependentUpon>202005040953263_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

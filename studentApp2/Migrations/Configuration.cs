@@ -10,7 +10,6 @@ namespace studentApp2.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "studentApp2.Models.ApplicationDbContext";
         }
 
         protected override void Seed(studentApp2.Models.ApplicationDbContext context)
